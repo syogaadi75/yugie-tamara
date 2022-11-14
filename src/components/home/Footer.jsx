@@ -5,11 +5,11 @@ import footer3 from '../../assets/svg/footer3.svg'
 
 function Footer() {
     return (
-        <div className='w-full items-center p-16 relative overflow-hidden'>
-            <div className='flex justify-between items-center p-8 shadow-footer rounded-lg'>
+        <div className='w-full items-center lg:p-16 relative overflow-hidden py-16'>
+            <div className='flex flex-col lg:flex-row gap-6 justify-between items-center p-6 lg:p-8 shadow rounded-lg'>
                 <div>
-                    <div className='text-4xl font-bold font-raleway text-dark/90'>Get in touch</div>
-                    <div className='mt-2'>
+                    <div className='text-xl lg:text-4xl font-bold font-raleway text-dark/90'>Get in touch</div>
+                    <div className='mt-2 text-sm'>
                         For business inquiry please send email to
                         <span className='font-semibold text-primary'> kukuhaldyanto@gmail.com</span>
                     </div>
@@ -31,7 +31,7 @@ function Footer() {
             <img className='absolute -left-3 top-0 w-[250px]' src={footer1} alt="Geometry" />
             <img className='absolute -right-3 rotate-180 bottom-1 w-[250px]' src={footer1} alt="Geometry" />
             {/* <img className='absolute right-20 -bottom-32 w-[250px]' src={footer2} alt="Geometry" /> */}
-            <img className='absolute left-72 -bottom-16 w-[110px]' src={footer3} alt="Geometry" />
+            <img className='absolute hidden lg:flex left-72 -bottom-16 w-[110px]' src={footer3} alt="Geometry" />
         </div>
     )
 }
