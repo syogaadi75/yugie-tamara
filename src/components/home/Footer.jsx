@@ -6,7 +6,7 @@ import footer3 from '../../assets/svg/footer3.svg'
 function Footer() {
     return (
         <div className='w-full items-center lg:p-16 relative overflow-hidden py-16'>
-            <div className='flex flex-col lg:flex-row gap-6 justify-between items-center p-6 lg:p-8 shadow rounded-lg'>
+            <div className='flex flex-col lg:flex-row gap-6 justify-between items-center p-6 lg:p-8 border lg:border-0 rounded-lg'>
                 <div>
                     <div className='text-xl lg:text-4xl font-bold font-raleway text-dark/90'>Get in touch</div>
                     <div className='mt-2 text-sm'>
